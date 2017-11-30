@@ -1,0 +1,17 @@
+;uddt;dry.toilet;pour.flush;urine.storage.tank;dehydration.vault;septic.tank;single.pit;double.pit;application.urine;application.faeces;testech;application.compost
+functional.group;U;U;U;S;S;S;S;S;D;D;D;D
+products; -> urine, faeces; -> excreta; -> blackwater;urine -> storedurine;faeces -> driedfaeces;blackwater, greywater -> sludge, effluent;excreta -> sludge;excreta -> pithumus;storedurine -> ;driedfaeces -> ;sludge, effluent -> ;compost, pithumus -> 
+;;;;;;blackwater -> sludge, effluent;;;;;sludge -> ;pithumus -> 
+;;;;;;greywater -> sludge, effluent;;;;;effluent -> ;compost -> 
+attr1;omskil;water;omskil;temp;temp;bod;bod;bod;bod;temp;temp;temp
+;prange;prange;prange;prange;prange;dtriangle;dtriangle;dtriangle;dtriangle;prange;prange;prange
+;lower=2, upper=Inf;lower=3, upper=Inf;lower=2, upper=Inf;lower=5, upper=Inf;lower=5, upper=Inf;a=40,  b=1900,   c=600;a=10, b=400, c=100;a=10, b=400, c=40;a=10, b=400, c=40;lower=10, upper=Inf;lower=0, upper=Inf;lower=0, upper=Inf
+attr2;temp;temp;;;;water;omskil;water;;;;
+;prange;prange;;;;ptrapez;prange;prange;;;;
+;lower=-10, upper=Inf;lower=5, upper=Inf;;;;a = 8, b = 10, c = 5000, d=5000;lower=1, upper=Inf;lower=1, upper=Inf;;;;
+attr3;;omskil;;;;temp;;temp;;;;
+;;prange;;;;prange;;prange;;;;
+;;lower=3, upper=Inf;;;;lower=5, upper=Inf;;lower=-5, upper=Inf;;;;
+attr4;;;;;;electricity;;omskil;;;;
+;;;;;;pcat;;prange;;;;
+;;;;;;c(no=0.5,yes=1);;lower=1, upper=Inf;;;;
