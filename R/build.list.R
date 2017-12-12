@@ -1,3 +1,24 @@
+## -------------------------------------------------------
+## File: build.list.R
+##
+## December, 2017 ??? Dorothee Spuhler
+## dorothee.spuhler@eawag.ch
+##
+##   This program is free software: you can redistribute it and/or modify
+##   it under the terms of the GNU General Public License as published by
+##   the Free Software Foundation, either version 3 of the License, or
+##   (at your option) any later version.
+##
+##   This program is distributed in the hope that it will be useful,
+##   but WITHOUT ANY WARRANTY; without even the implied warranty of
+##   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+##   GNU General Public License for more details.
+##
+##   You should have received a copy of the GNU General Public License
+##   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+##
+## ==============================================================================================
+
 build.list <- function(filename,n.info.row=NULL){ 
   # This function reads the technology and case input data stored in a csv file...
   # filename: csv name containing input data for technologies/cases
