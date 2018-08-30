@@ -1,3 +1,12 @@
+----------------------------------------------------------------------------
+This software was used for the article [Spuhler et al.(2018)](https://doi.org/10.1016/j.watres.2018.08.021) and the related data has been published under [https://doi.org/10.5281/zenodo.1092686](https://doi.org/10.5281/zenodo.1092686).
+
+If you use this software for scientific work, please cite:
+Spuhler, D., Scheidegger, A., & Maurer, M. (2018). Generation of sanitation system options for urban planning considering novel technologies. Water Research. https://doi.org/10.1016/j.watres.2018.08.021
+
+---------------------------------------------------------------------------
+
+
 TechAppA – Technology Appropriateness Assessment
 ================================================
 
